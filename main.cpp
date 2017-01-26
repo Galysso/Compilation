@@ -1,5 +1,7 @@
-#include <iostream>
 #include "Operations/Operation.hpp"
+#include "Operations/Concatenation.hpp"
+
+#include <iostream>
 
 using namespace std;
 

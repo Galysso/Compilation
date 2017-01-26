@@ -1,5 +1,5 @@
 CXX = g++
-SOURCES = Operations/Operation.cpp Operations/Concatenation.cpp
+SOURCES = Operations/Operation.cpp Operations/Concatenation.cpp Operations/Atome.cpp
 CFLAGS = -Wall -g -O3
 LDFLAGS =
 .PHONY = clean

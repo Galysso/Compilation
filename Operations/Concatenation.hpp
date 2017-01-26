@@ -1,12 +1,21 @@
+#ifndef CONCATENATION_HPP
+#define CONCATENATION_HPP
+
+#include "Operation.hpp"
+
 #include <string>
 #include <iostream>
-#include "Operation.hpp"
 
 using namespace std;
 
-class Concatenation extends Operation {
+class Concatenation : public Operation {
 	private:
+		Operation *O1;
+		Operation *O2;
+		
 	public:
-		Concatenation();
+		Concatenation(Operation *O1, Operation *O2);
 		void afficher();
 };
+
+#endif //CONCATENATION_HPP

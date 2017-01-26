@@ -1,6 +1,7 @@
-#include <iostream>
 #include "Operation.hpp"
+
+#include <iostream>
 
 using namespace std;
 
-Operation::Operation() {cout << "Test" << endl;}
+Operation::Operation() {}
